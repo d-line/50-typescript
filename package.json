@@ -1,0 +1,53 @@
+{
+  "name": "50-typescript",
+  "version": "0.0.1",
+  "description": "50 interview questions for software engineers",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --reporter spec --require ts-node/register 'src/**/*.spec.ts'"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.spec.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-line/50-typescript.git"
+  },
+  "keywords": [
+    "interview",
+    "algorithms",
+    "data",
+    "structure",
+    "white",
+    "board"
+  ],
+  "author": "d-line",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/d-line/50-typescript/issues"
+  },
+  "homepage": "https://github.com/d-line/50-typescript#readme",
+  "devDependencies": {
+    "@types/chai": "4.1.6",
+    "@types/mocha": "5.2.5",
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0",
+    "ts-node": "7.0.1",
+    "typescript": "3.1.3"
+  }
+}
