@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/d-line/50-typescript.svg?branch=master)](https://travis-ci.org/d-line/50-typescript)
+
 # 50+ Data Structure and Algorithms Interview Questions for Programmers
 
 Inspired by this Medium post https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0 by [javinpaul](https://hackernoon.com/@javinpaul)
